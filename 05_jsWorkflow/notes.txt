@@ -1,0 +1,30 @@
+How does javascript execute code + call stack ?
+
+🎯JavaScript Execution Context:
+
+    1️⃣ Whenever a program is run, a global execution is made and assigned it to "this".
+    2️⃣ Memory phase: all variable assigned to undefined and functions are defined.
+    3️⃣ Execution phase :
+        👉 all variables are assigned to their values 
+        👉 the functions when executed, they make their own execution context.
+        👉 then Memory phase takes place in the function's execution context.
+        👉 then Execution phase takes place in the function's execution context.
+    4️⃣ After execution the value is returned back.
+    5️⃣ And then the execution phase is deleted.
+    
+    
+🎯JavaScript Call Stacks:
+    It keeps track of what function is currently running 
+    and what functions need to be run next.
+
+    1️⃣When a Function is Called:
+        The function is added to the top of the stack.
+        The JavaScript engine begins executing the function.
+    2️⃣When a Function Finishes Execution:
+        It is removed (popped) from the stack.  
+        The engine resumes the execution of the function below it in the stack.
+    3️⃣When Nested Functions are Called:
+        Each nested function call is added to the stack.
+        The stack unwinds as the functions return values and complete their execution.
+
+
