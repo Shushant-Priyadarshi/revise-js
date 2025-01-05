@@ -1,0 +1,9 @@
+The Document Object Model (DOM) is a programming interface for web documents. 
+It represents the structure of a webpage as a tree of objects that can be manipulated 
+using programming languages like JavaScript.
+
+document.getElementById("myId");          // Access by ID
+document.getElementsByClassName("myClass"); // Access by class
+document.getElementsByTagName("div");      // Access by tag name
+document.querySelector(".myClass");        // Access using CSS selector
+document.querySelectorAll("p");            // Access all matching elements
