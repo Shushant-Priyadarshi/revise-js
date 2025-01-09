@@ -1,0 +1,7 @@
+Important Events to learn:
+
+type ,timestamp, defaultPrevented,
+target , srcElement, toElement, currentTarget,
+clientX ,clientY ,screenX ,screenY
+altKey, ctrlKey, shiftKey, keyCode
+
