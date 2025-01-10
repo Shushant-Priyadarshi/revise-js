@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>setInterval</title>
+  </head>
+  <body>
+    <h1>SetInterval</h1>
+    <button type="button" id="start">start</button>
+    <button type="button" id="stop">stop</button>
+
+    <script>
+       let interval;
+
+        let stopBtn = document.querySelector("#stop")
+        let startBtn = document.querySelector("#start")
+        
+        startBtn.addEventListener("click",()=>{
+            if(!interval){
+                interval = setInterval(()=>{
+                    console.log("Shushant")
+                },1000)
+            }
+        })
+
+        stopBtn.addEventListener("click",()=>{
+            clearInterval(interval);
+            interval =null
+
+        })
+    </script>
+  </body>
+</html>
