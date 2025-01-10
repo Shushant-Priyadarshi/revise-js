@@ -1,1 +1,1 @@
-`Js is a synchronous and single threaded language => Default Behaviour
+Js is a synchronous and single threaded language => Default Behaviour

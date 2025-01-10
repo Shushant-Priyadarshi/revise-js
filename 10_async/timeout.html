@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>setTimeOut</title>
+  </head>
+  <body>
+
+    <h1>JavaScript</h1>
+    <button type="button">Stop</button>
+
+
+    <script>
+        
+      const sayName = () => {
+        document.querySelector("h1").innerHTML = "Shushant";
+      };
+      const chageName = setTimeout(sayName, 3000);
+
+      const button = document.querySelector("button");
+      button.addEventListener("click", () => {
+        clearTimeout(chageName);
+        console.log("Name change is stopped!!");
+      });
+
+    </script>
+  </body>
+</html>
