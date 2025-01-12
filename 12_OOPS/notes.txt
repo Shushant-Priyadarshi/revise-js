@@ -1,1 +1,9 @@
 🎯OOPS
+
+    👉 Js is not a oops language, due to its prototype nature,
+    but ES6 introduced the concept of oops in the language in 2015.
+    But still it is not, it only provides a syntactical sugar.
+
+    ➡️ Object: collection of properties and methods.
+    ➡️ new(constructor function): new keyword helps to make multiple instances of objects.
+    
