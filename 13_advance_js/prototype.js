@@ -1,4 +1,3 @@
-const { LEGAL_TLS_SOCKET_OPTIONS } = require("mongodb");
 
 function createUser(name,age){
     this.name=name;
